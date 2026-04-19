@@ -1,0 +1,47 @@
+name: Refresh Dashboard Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch dashboard data
+        env:
+          SHOPIFY_GAF_CLIENT_ID: ${{ secrets.SHOPIFY_GAF_CLIENT_ID }}
+          SHOPIFY_GAF_CLIENT_SECRET: ${{ secrets.SHOPIFY_GAF_CLIENT_SECRET }}
+          SHOPIFY_REVEL_CLIENT_ID: ${{ secrets.SHOPIFY_REVEL_CLIENT_ID }}
+          SHOPIFY_REVEL_CLIENT_SECRET: ${{ secrets.SHOPIFY_REVEL_CLIENT_SECRET }}
+          HUBSPOT_PAT: ${{ secrets.HUBSPOT_PAT }}
+          GA4_CREDENTIALS_JSON: ${{ secrets.GA4_CREDENTIALS_JSON }}
+          GOOGLE_SHEETS_CREDENTIALS_JSON: ${{ secrets.GA4_CREDENTIALS_JSON }}
+          ASANA_PAT: ${{ secrets.ASANA_PAT }}
+        run: python scripts/fetch_data.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "Gary (Automated)"
+          git config user.email "gary@theafsgroup.org"
+          git add data/dashboard.json
+          if git diff --staged --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Data refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
