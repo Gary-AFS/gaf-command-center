@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAF Command Center</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Password Gate -->
+    <div id="password-gate" class="gate">
+        <div class="gate-inner">
+            <div class="gate-logo">GAF</div>
+            <h1 class="gate-title">Command Center</h1>
+            <form id="password-form" autocomplete="off">
+                <input
+                    type="password"
+                    id="password-input"
+                    class="gate-input"
+                    placeholder="Enter access code"
+                    autocomplete="off"
+                    autofocus
+                >
+                <button type="submit" class="gate-button">Access</button>
+            </form>
+            <p id="gate-error" class="gate-error"></p>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="dashboard hidden">
+
+        <!-- Top Bar -->
+        <header class="topbar">
+            <div class="topbar-left">
+                <span class="topbar-brand">GAF</span>
+                <span class="topbar-title">Command Center</span>
+            </div>
+            <div class="topbar-right">
+                <span id="staleness-dot" class="staleness-dot"></span>
+                <span id="last-updated" class="topbar-meta">Loading...</span>
+            </div>
+        </header>
+
+        <!-- Grid -->
+        <main class="grid">
+
+            <!-- 1. Brand Performance -->
+            <section class="card" id="panel-brand">
+                <h2 class="card-title">Brand Performance</h2>
+                <div id="brand-content" class="card-body">
+                    <div class="loading-placeholder">Loading...</div>
+                </div>
+            </section>
+
+            <!-- 2. Marketing Channels -->
+            <section class="card" id="panel-channels">
+                <h2 class="card-title">Marketing Channels</h2>
+                <div id="channels-content" class="card-body">
+                    <div class="loading-placeholder">Loading...</div>
+                </div>
+            </section>
+
+            <!-- 3. Campaign Health -->
+            <section class="card" id="panel-campaigns">
+                <h2 class="card-title">Campaign Health</h2>
+                <div id="campaigns-content" class="card-body">
+                    <div class="loading-placeholder">Loading...</div>
+                </div>
+            </section>
+
+            <!-- 4. Customer Intelligence -->
+            <section class="card" id="panel-cac">
+                <h2 class="card-title">Customer Intelligence</h2>
+                <div id="cac-content" class="card-body">
+                    <div class="loading-placeholder">Loading...</div>
+                </div>
+            </section>
+
+            <!-- 5. Team Execution -->
+            <section class="card" id="panel-team">
+                <h2 class="card-title">Team Execution</h2>
+                <div id="team-content" class="card-body">
+                    <div class="loading-placeholder">Loading...</div>
+                </div>
+            </section>
+
+            <!-- 6. Gary's Board -->
+            <section class="card" id="panel-gary">
+                <h2 class="card-title">Gary's Board</h2>
+                <div id="gary-content" class="card-body">
+                    <div class="loading-placeholder">Loading...</div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

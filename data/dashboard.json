@@ -1,0 +1,100 @@
+{
+    "last_updated": "2026-04-16T14:30:00+09:30",
+    "brand_performance": [
+        {
+            "name": "GAF",
+            "periods": {
+                "today": { "revenue": 12480, "orders": 18, "aov": 693 },
+                "7d": { "revenue": 94250, "orders": 134, "aov": 703 },
+                "30d": { "revenue": 412800, "orders": 587, "aov": 703 },
+                "90d": { "revenue": 1185000, "orders": 1694, "aov": 699 }
+            }
+        },
+        {
+            "name": "Revel",
+            "periods": {
+                "today": { "revenue": 3200, "orders": 5, "aov": 640 },
+                "7d": { "revenue": 21400, "orders": 32, "aov": 669 },
+                "30d": { "revenue": 89500, "orders": 128, "aov": 699 },
+                "90d": { "revenue": 245000, "orders": 356, "aov": 688 }
+            }
+        }
+    ],
+    "marketing_channels": {
+        "periods": {
+            "7d": {
+                "sessions": 48200,
+                "users": 31400,
+                "conversions": 312,
+                "channels": [
+                    { "name": "Organic Search", "sessions": 18500 },
+                    { "name": "Paid Search", "sessions": 11200 },
+                    { "name": "Direct", "sessions": 8400 },
+                    { "name": "Social", "sessions": 4800 },
+                    { "name": "Email", "sessions": 3100 },
+                    { "name": "Referral", "sessions": 1400 },
+                    { "name": "Display", "sessions": 800 }
+                ]
+            },
+            "30d": {
+                "sessions": 195000,
+                "users": 128000,
+                "conversions": 1340,
+                "channels": [
+                    { "name": "Organic Search", "sessions": 74100 },
+                    { "name": "Paid Search", "sessions": 46800 },
+                    { "name": "Direct", "sessions": 33200 },
+                    { "name": "Social", "sessions": 19500 },
+                    { "name": "Email", "sessions": 12400 },
+                    { "name": "Referral", "sessions": 5800 },
+                    { "name": "Display", "sessions": 3200 }
+                ]
+            }
+        }
+    },
+    "campaigns": [
+        { "name": "EOFY Sale - Early Access VIP", "status": "SENT", "open_rate": 32.4, "click_rate": 4.8 },
+        { "name": "Force USA G15 Launch", "status": "SENT", "open_rate": 28.1, "click_rate": 5.2 },
+        { "name": "Weekly Deals - W16", "status": "SCHEDULED", "open_rate": null, "click_rate": null },
+        { "name": "Revel Bike April Promo", "status": "SENT", "open_rate": 22.3, "click_rate": 3.1 },
+        { "name": "Abandoned Cart - 24hr", "status": "SENT", "open_rate": 18.7, "click_rate": 6.4 },
+        { "name": "Winter Training Guide", "status": "DRAFT", "open_rate": null, "click_rate": null },
+        { "name": "Force USA G6 Clearance", "status": "SENT", "open_rate": 12.8, "click_rate": 1.9 }
+    ],
+    "customer_intelligence": {
+        "segments": [
+            { "name": "Google Ads", "cac": 42, "orders": 380, "revenue": 268000 },
+            { "name": "Meta", "cac": 38, "orders": 245, "revenue": 156000 },
+            { "name": "Organic", "cac": 8, "orders": 520, "revenue": 364000 },
+            { "name": "Email", "cac": 3, "orders": 190, "revenue": 128000 },
+            { "name": "Pinterest", "cac": 55, "orders": 62, "revenue": 41000 }
+        ],
+        "platform_roas": [
+            { "name": "Google Ads", "roas": 4.2 },
+            { "name": "Meta", "roas": 3.8 },
+            { "name": "Pinterest", "roas": 1.4 },
+            { "name": "TikTok", "roas": 0.8 }
+        ]
+    },
+    "team_execution": {
+        "overdue": [
+            { "name": "Finalise Q3 campaign calendar", "assignee": "Sarah", "due": "Apr 14" },
+            { "name": "Upload Revel product photos (batch 3)", "assignee": "Tom", "due": "Apr 12" }
+        ],
+        "due_this_week": [
+            { "name": "Weekly social content pack", "assignee": "Mia", "due": "Apr 18" },
+            { "name": "Force USA G15 landing page copy", "assignee": "Josh", "due": "Apr 17" },
+            { "name": "GA4 monthly report", "assignee": "Sarah", "due": "Apr 18" },
+            { "name": "Pinterest ads creative review", "assignee": "Tom", "due": "Apr 19" },
+            { "name": "HubSpot workflow audit", "assignee": "Gary", "due": "Apr 20" }
+        ]
+    },
+    "gary_board": [
+        { "name": "Pull weekly Shopify sales summary", "completed": true },
+        { "name": "Draft EOFY campaign brief", "completed": false },
+        { "name": "Audit Asana overdue tasks", "completed": true },
+        { "name": "Prepare Josh's Monday standup notes", "completed": false },
+        { "name": "Update GAF product data sheet", "completed": false },
+        { "name": "Review HubSpot email performance", "completed": true }
+    ]
+}
