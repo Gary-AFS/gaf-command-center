@@ -1,100 +1,355 @@
 {
-    "last_updated": "2026-04-16T14:30:00+09:30",
-    "brand_performance": [
-        {
-            "name": "GAF",
-            "periods": {
-                "today": { "revenue": 12480, "orders": 18, "aov": 693 },
-                "7d": { "revenue": 94250, "orders": 134, "aov": 703 },
-                "30d": { "revenue": 412800, "orders": 587, "aov": 703 },
-                "90d": { "revenue": 1185000, "orders": 1694, "aov": 699 }
-            }
-        },
-        {
-            "name": "Revel",
-            "periods": {
-                "today": { "revenue": 3200, "orders": 5, "aov": 640 },
-                "7d": { "revenue": 21400, "orders": 32, "aov": 669 },
-                "30d": { "revenue": 89500, "orders": 128, "aov": 699 },
-                "90d": { "revenue": 245000, "orders": 356, "aov": 688 }
-            }
-        }
-    ],
-    "marketing_channels": {
-        "periods": {
-            "7d": {
-                "sessions": 48200,
-                "users": 31400,
-                "conversions": 312,
-                "channels": [
-                    { "name": "Organic Search", "sessions": 18500 },
-                    { "name": "Paid Search", "sessions": 11200 },
-                    { "name": "Direct", "sessions": 8400 },
-                    { "name": "Social", "sessions": 4800 },
-                    { "name": "Email", "sessions": 3100 },
-                    { "name": "Referral", "sessions": 1400 },
-                    { "name": "Display", "sessions": 800 }
-                ]
-            },
-            "30d": {
-                "sessions": 195000,
-                "users": 128000,
-                "conversions": 1340,
-                "channels": [
-                    { "name": "Organic Search", "sessions": 74100 },
-                    { "name": "Paid Search", "sessions": 46800 },
-                    { "name": "Direct", "sessions": 33200 },
-                    { "name": "Social", "sessions": 19500 },
-                    { "name": "Email", "sessions": 12400 },
-                    { "name": "Referral", "sessions": 5800 },
-                    { "name": "Display", "sessions": 3200 }
-                ]
-            }
-        }
+  "last_updated": "2026-04-20T06:34:47Z",
+  "brands": {
+    "gaf": {
+      "revenue": {
+        "today": 111005.38,
+        "7d": 455488.07,
+        "30d": 1826122.9,
+        "90d": 5223310.71
+      },
+      "orders": {
+        "today": 46,
+        "7d": 247,
+        "30d": 995,
+        "90d": 2880
+      },
+      "aov": {
+        "today": 2413.16,
+        "7d": 1844.08,
+        "30d": 1835.3,
+        "90d": 1813.65
+      }
     },
-    "campaigns": [
-        { "name": "EOFY Sale - Early Access VIP", "status": "SENT", "open_rate": 32.4, "click_rate": 4.8 },
-        { "name": "Force USA G15 Launch", "status": "SENT", "open_rate": 28.1, "click_rate": 5.2 },
-        { "name": "Weekly Deals - W16", "status": "SCHEDULED", "open_rate": null, "click_rate": null },
-        { "name": "Revel Bike April Promo", "status": "SENT", "open_rate": 22.3, "click_rate": 3.1 },
-        { "name": "Abandoned Cart - 24hr", "status": "SENT", "open_rate": 18.7, "click_rate": 6.4 },
-        { "name": "Winter Training Guide", "status": "DRAFT", "open_rate": null, "click_rate": null },
-        { "name": "Force USA G6 Clearance", "status": "SENT", "open_rate": 12.8, "click_rate": 1.9 }
-    ],
-    "customer_intelligence": {
-        "segments": [
-            { "name": "Google Ads", "cac": 42, "orders": 380, "revenue": 268000 },
-            { "name": "Meta", "cac": 38, "orders": 245, "revenue": 156000 },
-            { "name": "Organic", "cac": 8, "orders": 520, "revenue": 364000 },
-            { "name": "Email", "cac": 3, "orders": 190, "revenue": 128000 },
-            { "name": "Pinterest", "cac": 55, "orders": 62, "revenue": 41000 }
-        ],
-        "platform_roas": [
-            { "name": "Google Ads", "roas": 4.2 },
-            { "name": "Meta", "roas": 3.8 },
-            { "name": "Pinterest", "roas": 1.4 },
-            { "name": "TikTok", "roas": 0.8 }
-        ]
+    "revel": {
+      "revenue": {
+        "today": 42598.85,
+        "7d": 189654.5,
+        "30d": 1094381.3,
+        "90d": 3667330.92
+      },
+      "orders": {
+        "today": 10,
+        "7d": 48,
+        "30d": 238,
+        "90d": 885
+      },
+      "aov": {
+        "today": 4259.89,
+        "7d": 3951.14,
+        "30d": 4598.24,
+        "90d": 4143.88
+      }
+    }
+  },
+  "ga4": {
+    "periods": {
+      "7d": {
+        "sessions": 47308,
+        "users": 39133,
+        "conversions": 2680
+      },
+      "30d": {
+        "sessions": 216051,
+        "users": 170312,
+        "conversions": 11773
+      }
     },
-    "team_execution": {
-        "overdue": [
-            { "name": "Finalise Q3 campaign calendar", "assignee": "Sarah", "due": "Apr 14" },
-            { "name": "Upload Revel product photos (batch 3)", "assignee": "Tom", "due": "Apr 12" }
-        ],
-        "due_this_week": [
-            { "name": "Weekly social content pack", "assignee": "Mia", "due": "Apr 18" },
-            { "name": "Force USA G15 landing page copy", "assignee": "Josh", "due": "Apr 17" },
-            { "name": "GA4 monthly report", "assignee": "Sarah", "due": "Apr 18" },
-            { "name": "Pinterest ads creative review", "assignee": "Tom", "due": "Apr 19" },
-            { "name": "HubSpot workflow audit", "assignee": "Gary", "due": "Apr 20" }
-        ]
-    },
-    "gary_board": [
-        { "name": "Pull weekly Shopify sales summary", "completed": true },
-        { "name": "Draft EOFY campaign brief", "completed": false },
-        { "name": "Audit Asana overdue tasks", "completed": true },
-        { "name": "Prepare Josh's Monday standup notes", "completed": false },
-        { "name": "Update GAF product data sheet", "completed": false },
-        { "name": "Review HubSpot email performance", "completed": true }
+    "channels": [
+      {
+        "name": "Paid Social",
+        "sessions": 68465,
+        "users": 51193,
+        "conversions": 1403
+      },
+      {
+        "name": "Paid Shopping",
+        "sessions": 41620,
+        "users": 34724,
+        "conversions": 2010
+      },
+      {
+        "name": "Organic Search",
+        "sessions": 22179,
+        "users": 16782,
+        "conversions": 1229
+      },
+      {
+        "name": "Direct",
+        "sessions": 19455,
+        "users": 16689,
+        "conversions": 1100
+      },
+      {
+        "name": "Cross-network",
+        "sessions": 16604,
+        "users": 11807,
+        "conversions": 2109
+      },
+      {
+        "name": "Paid Search",
+        "sessions": 15573,
+        "users": 10969,
+        "conversions": 2555
+      },
+      {
+        "name": "Referral",
+        "sessions": 15412,
+        "users": 14742,
+        "conversions": 338
+      },
+      {
+        "name": "Unassigned",
+        "sessions": 8759,
+        "users": 6516,
+        "conversions": 582
+      },
+      {
+        "name": "Organic Social",
+        "sessions": 5823,
+        "users": 5504,
+        "conversions": 103
+      },
+      {
+        "name": "Email",
+        "sessions": 1111,
+        "users": 744,
+        "conversions": 141
+      },
+      {
+        "name": "Organic Shopping",
+        "sessions": 965,
+        "users": 589,
+        "conversions": 203
+      },
+      {
+        "name": "Paid Other",
+        "sessions": 60,
+        "users": 32,
+        "conversions": 0
+      },
+      {
+        "name": "Organic Video",
+        "sessions": 22,
+        "users": 19,
+        "conversions": 0
+      },
+      {
+        "name": "Display",
+        "sessions": 3,
+        "users": 2,
+        "conversions": 0
+      }
     ]
+  },
+  "hubspot": {
+    "recent_emails": [
+      {
+        "name": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells",
+        "subject": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells",
+        "status": "PUBLISHED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "QRL State of Origin 2026 - Kick-Off Announcement",
+        "subject": "Game On, Queensland. State of Origin is back.",
+        "status": "DRAFT",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "Centr x Hyrox \u2014 Brisbane Hang Challenge (Custom Coded)",
+        "subject": "You Showed Up. Now Gear Up. 5% Off Centr x HYROX \ud83d\udcaa",
+        "status": "PUBLISHED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CW1 | Day 35 - Additional Equipment Follow-Up",
+        "subject": "How\u2019s the training going?",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CW1 | Day 21 - Share Your Space & Review",
+        "subject": "Show us your set up",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CW1 | Day 2 - Delivery Clarity",
+        "subject": "Getting ready for delivery",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CW1 | Day 1 - Welcome & Journey Overview",
+        "subject": "Congrats on your new equipment \ud83c\udf89",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "Hyrox Brisbane Leads \u2014 Welcome + 5% Off (Apr 2026) v2",
+        "subject": "You showed up at HYROX Brisbane. Here's a thank you.",
+        "status": "DRAFT",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "Centr x Hyrox \u2014 Brisbane Hang Challenge Follow-Up",
+        "subject": "You Showed Up. Now Gear Up. 5% Off Centr x HYROX \ud83d\udcaa",
+        "status": "DRAFT",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "Latitude Financing - Launch 26",
+        "subject": "Train Now, Pay Later with Latitude",
+        "status": "PUBLISHED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "TEST \u2014 Gary API Draft (Delete Me)",
+        "subject": "Test Email \u2014 Please Ignore",
+        "status": "DRAFT",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "Free Shipping Last Day 26",
+        "subject": "Free Shipping Ends Tonight",
+        "status": "PUBLISHED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CL1 | Day 1",
+        "subject": "Maybe next time",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CL1 | Day 21",
+        "subject": "Gym and Fitness",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CL1 | Day 7",
+        "subject": "Survey and Save",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CW1 | Day 7 - Refer a Friend",
+        "subject": "Help Your Mate!",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CW1 | Day 5 - Warranty & Support",
+        "subject": "Warranty & Support",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CW1 | Day 3 - Build Day Basics",
+        "subject": "Build Day Basics",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CL3 | Day 30",
+        "subject": "One last thing",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "GAF | CL3 | Day 7",
+        "subject": "Survey and Save",
+        "status": "AUTOMATED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      }
+    ]
+  },
+  "asana": {
+    "error": "401 Client Error: Unauthorized for url: https://app.asana.com/api/1.0/workspaces/12600476210818/tasks/search?due_on.after=2026-04-20&due_on.before=2026-04-27&completed=false&opt_fields=name%2Cdue_on%2Cassignee.name%2Cprojects.name"
+  },
+  "cac": {
+    "error": "<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10ZTj5iCaVEHq76ka3No6i7J9xp4MaoPppZkf3mxMyOk/values/%27Final%20Model%27%21A1%3AZ50?alt=json returned \"Unable to parse range: 'Final Model'!A1:Z50\". Details: \"Unable to parse range: 'Final Model'!A1:Z50\">"
+  }
 }
