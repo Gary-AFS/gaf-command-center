@@ -1,125 +1,125 @@
 {
-  "last_updated": "2026-04-20T19:46:14Z",
+  "last_updated": "2026-04-20T22:11:41Z",
   "brands": {
     "gaf": {
       "revenue": {
-        "today": 96998.23,
-        "7d": 429011.3,
-        "30d": 1831315.07,
-        "90d": 5213746.77
+        "today": 86676.39,
+        "7d": 428350.65,
+        "30d": 1830740.94,
+        "90d": 5212773.6
       },
       "orders": {
-        "today": 42,
-        "7d": 242,
-        "30d": 1000,
-        "90d": 2878
+        "today": 40,
+        "7d": 239,
+        "30d": 998,
+        "90d": 2874
       },
       "aov": {
-        "today": 2309.48,
-        "7d": 1772.77,
-        "30d": 1831.32,
-        "90d": 1811.59
+        "today": 2166.91,
+        "7d": 1792.26,
+        "30d": 1834.41,
+        "90d": 1813.77
       }
     },
     "revel": {
       "revenue": {
-        "today": 61461.98,
-        "7d": 204513.72,
-        "30d": 1089636.43,
-        "90d": 3677819.74
+        "today": 61590.96,
+        "7d": 197642.7,
+        "30d": 1089765.41,
+        "90d": 3677948.72
       },
       "orders": {
-        "today": 14,
-        "7d": 52,
-        "30d": 240,
-        "90d": 889
+        "today": 16,
+        "7d": 53,
+        "30d": 242,
+        "90d": 891
       },
       "aov": {
-        "today": 4390.14,
-        "7d": 3932.96,
-        "30d": 4540.15,
-        "90d": 4137.03
+        "today": 3849.44,
+        "7d": 3729.11,
+        "30d": 4503.16,
+        "90d": 4127.89
       }
     }
   },
   "ga4": {
     "periods": {
       "7d": {
-        "sessions": 44980,
-        "users": 37597,
-        "conversions": 2396
+        "sessions": 45559,
+        "users": 37978,
+        "conversions": 2443
       },
       "30d": {
-        "sessions": 214606,
-        "users": 168740,
-        "conversions": 11739
+        "sessions": 215013,
+        "users": 169110,
+        "conversions": 11786
       }
     },
     "channels": [
       {
         "name": "Paid Social",
-        "sessions": 67626,
-        "users": 50185,
+        "sessions": 67389,
+        "users": 50268,
         "conversions": 1365
       },
       {
         "name": "Paid Shopping",
-        "sessions": 41314,
-        "users": 34748,
-        "conversions": 2024
+        "sessions": 41524,
+        "users": 34864,
+        "conversions": 2023
       },
       {
         "name": "Organic Search",
-        "sessions": 22033,
-        "users": 16601,
+        "sessions": 22438,
+        "users": 16670,
         "conversions": 1220
       },
       {
         "name": "Direct",
-        "sessions": 19094,
-        "users": 16343,
-        "conversions": 1149
+        "sessions": 19136,
+        "users": 16374,
+        "conversions": 1151
       },
       {
         "name": "Cross-network",
-        "sessions": 16785,
-        "users": 11807,
-        "conversions": 2088
+        "sessions": 16805,
+        "users": 11831,
+        "conversions": 2090
       },
       {
         "name": "Paid Search",
-        "sessions": 15455,
-        "users": 10852,
-        "conversions": 2516
+        "sessions": 15429,
+        "users": 10874,
+        "conversions": 2558
       },
       {
         "name": "Referral",
-        "sessions": 15388,
-        "users": 14734,
-        "conversions": 337
+        "sessions": 15368,
+        "users": 14738,
+        "conversions": 339
       },
       {
         "name": "Unassigned",
-        "sessions": 8732,
-        "users": 6453,
+        "sessions": 8741,
+        "users": 6455,
         "conversions": 590
       },
       {
         "name": "Organic Social",
-        "sessions": 5714,
-        "users": 5366,
+        "sessions": 5702,
+        "users": 5375,
         "conversions": 103
       },
       {
         "name": "Email",
-        "sessions": 1417,
-        "users": 1010,
+        "sessions": 1424,
+        "users": 1013,
         "conversions": 147
       },
       {
         "name": "Organic Shopping",
-        "sessions": 967,
-        "users": 590,
+        "sessions": 976,
+        "users": 597,
         "conversions": 200
       },
       {
