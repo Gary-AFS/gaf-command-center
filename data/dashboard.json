@@ -1,126 +1,126 @@
 {
-  "last_updated": "2026-04-22T00:04:30Z",
+  "last_updated": "2026-04-22T06:26:52Z",
   "brands": {
     "gaf": {
       "revenue": {
-        "today": 28867.74,
-        "7d": 410046.77,
-        "30d": 1806858.79,
-        "90d": 5191933.81
+        "today": 48989.72,
+        "7d": 421093.87,
+        "30d": 1791142.81,
+        "90d": 5171872.84
       },
       "orders": {
-        "today": 26,
+        "today": 29,
         "7d": 238,
-        "30d": 1009,
-        "90d": 2864
+        "30d": 1012,
+        "90d": 2862
       },
       "aov": {
-        "today": 1110.3,
-        "7d": 1722.89,
-        "30d": 1790.74,
-        "90d": 1812.83
+        "today": 1689.3,
+        "7d": 1769.3,
+        "30d": 1769.9,
+        "90d": 1807.08
       }
     },
     "revel": {
       "revenue": {
-        "today": 88708.88,
-        "7d": 281269.07,
-        "30d": 1161188.76,
-        "90d": 3706166.98
+        "today": 28912.98,
+        "7d": 282017.07,
+        "30d": 1149621.78,
+        "90d": 3711282.01
       },
       "orders": {
-        "today": 13,
-        "7d": 64,
-        "30d": 252,
-        "90d": 895
+        "today": 7,
+        "7d": 65,
+        "30d": 248,
+        "90d": 894
       },
       "aov": {
-        "today": 6823.76,
-        "7d": 4394.83,
-        "30d": 4607.89,
-        "90d": 4140.97
+        "today": 4130.43,
+        "7d": 4338.72,
+        "30d": 4635.57,
+        "90d": 4151.32
       }
     }
   },
   "ga4": {
     "periods": {
       "7d": {
-        "sessions": 45541,
-        "users": 37988,
-        "conversions": 2391
+        "sessions": 46992,
+        "users": 39101,
+        "conversions": 2491
       },
       "30d": {
-        "sessions": 213450,
-        "users": 167801,
-        "conversions": 11642
+        "sessions": 214829,
+        "users": 168898,
+        "conversions": 11742
       }
     },
     "channels": [
       {
         "name": "Paid Social",
-        "sessions": 66291,
-        "users": 49317,
-        "conversions": 1334
+        "sessions": 66699,
+        "users": 49546,
+        "conversions": 1339
       },
       {
         "name": "Paid Shopping",
-        "sessions": 41866,
-        "users": 34939,
-        "conversions": 2015
+        "sessions": 42063,
+        "users": 35216,
+        "conversions": 2027
       },
       {
         "name": "Organic Search",
-        "sessions": 22673,
-        "users": 16821,
-        "conversions": 1243
+        "sessions": 22938,
+        "users": 17007,
+        "conversions": 1248
       },
       {
         "name": "Direct",
-        "sessions": 18976,
-        "users": 16349,
-        "conversions": 1109
+        "sessions": 19133,
+        "users": 16496,
+        "conversions": 1124
       },
       {
         "name": "Cross-network",
-        "sessions": 16922,
-        "users": 11871,
-        "conversions": 2070
+        "sessions": 17026,
+        "users": 11937,
+        "conversions": 2092
       },
       {
         "name": "Paid Search",
-        "sessions": 15457,
-        "users": 10889,
-        "conversions": 2525
+        "sessions": 15568,
+        "users": 10971,
+        "conversions": 2554
       },
       {
         "name": "Referral",
-        "sessions": 15243,
-        "users": 14587,
-        "conversions": 339
+        "sessions": 15301,
+        "users": 14625,
+        "conversions": 344
       },
       {
         "name": "Unassigned",
-        "sessions": 7807,
-        "users": 5988,
-        "conversions": 570
+        "sessions": 7835,
+        "users": 6016,
+        "conversions": 571
       },
       {
         "name": "Organic Social",
-        "sessions": 5632,
-        "users": 5318,
+        "sessions": 5667,
+        "users": 5354,
         "conversions": 100
       },
       {
         "name": "Email",
-        "sessions": 1504,
-        "users": 1060,
-        "conversions": 142
+        "sessions": 1515,
+        "users": 1066,
+        "conversions": 147
       },
       {
         "name": "Organic Shopping",
-        "sessions": 996,
-        "users": 609,
-        "conversions": 195
+        "sessions": 1001,
+        "users": 611,
+        "conversions": 196
       },
       {
         "name": "Paid Other",
@@ -144,6 +144,16 @@
   },
   "hubspot": {
     "recent_emails": [
+      {
+        "name": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells (Clone)",
+        "subject": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells",
+        "status": "PUBLISHED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
       {
         "name": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells",
         "subject": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells",
@@ -327,16 +337,6 @@
       {
         "name": "GAF | CL3 | Day 30",
         "subject": "One last thing",
-        "status": "AUTOMATED",
-        "sends": 0,
-        "opens": 0,
-        "clicks": 0,
-        "open_rate": 0,
-        "click_rate": 0
-      },
-      {
-        "name": "GAF | CL3 | Day 7",
-        "subject": "Survey and Save",
         "status": "AUTOMATED",
         "sends": 0,
         "opens": 0,
