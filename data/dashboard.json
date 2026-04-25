@@ -1,126 +1,126 @@
 {
-  "last_updated": "2026-04-25T08:38:11Z",
+  "last_updated": "2026-04-25T11:25:50Z",
   "brands": {
     "gaf": {
       "revenue": {
-        "today": 29958.58,
-        "7d": 516657.99,
-        "30d": 1900091.51,
-        "90d": 5310735.75
+        "today": 22662.82,
+        "7d": 516306.18,
+        "30d": 1896303.04,
+        "90d": 5309951.34
       },
       "orders": {
         "today": 23,
-        "7d": 235,
-        "30d": 1010,
+        "7d": 234,
+        "30d": 1007,
         "90d": 2881
       },
       "aov": {
-        "today": 1302.55,
-        "7d": 2198.54,
-        "30d": 1881.28,
-        "90d": 1843.37
+        "today": 985.34,
+        "7d": 2206.44,
+        "30d": 1883.12,
+        "90d": 1843.09
       }
     },
     "revel": {
       "revenue": {
-        "today": 13808.14,
-        "7d": 254273.87,
-        "30d": 1121300.0,
-        "90d": 3736162.71
+        "today": 21307.14,
+        "7d": 261772.87,
+        "30d": 1119829.01,
+        "90d": 3743661.71
       },
       "orders": {
-        "today": 7,
-        "7d": 59,
-        "30d": 241,
-        "90d": 889
+        "today": 8,
+        "7d": 60,
+        "30d": 239,
+        "90d": 890
       },
       "aov": {
-        "today": 1972.59,
-        "7d": 4309.73,
-        "30d": 4652.7,
-        "90d": 4202.66
+        "today": 2663.39,
+        "7d": 4362.88,
+        "30d": 4685.48,
+        "90d": 4206.36
       }
     }
   },
   "ga4": {
     "periods": {
       "7d": {
-        "sessions": 47926,
-        "users": 39665,
-        "conversions": 2777
+        "sessions": 48458,
+        "users": 40067,
+        "conversions": 2845
       },
       "30d": {
-        "sessions": 207646,
-        "users": 161567,
-        "conversions": 11760
+        "sessions": 207960,
+        "users": 161944,
+        "conversions": 11828
       }
     },
     "channels": [
       {
         "name": "Paid Social",
-        "sessions": 62420,
-        "users": 45609,
-        "conversions": 1281
+        "sessions": 62428,
+        "users": 45689,
+        "conversions": 1282
       },
       {
         "name": "Paid Shopping",
-        "sessions": 42511,
-        "users": 35606,
-        "conversions": 2116
+        "sessions": 42682,
+        "users": 35746,
+        "conversions": 2131
       },
       {
         "name": "Organic Search",
-        "sessions": 22505,
-        "users": 16653,
-        "conversions": 1227
+        "sessions": 22521,
+        "users": 16681,
+        "conversions": 1239
       },
       {
         "name": "Direct",
-        "sessions": 18405,
-        "users": 15448,
-        "conversions": 947
+        "sessions": 18412,
+        "users": 15473,
+        "conversions": 960
       },
       {
         "name": "Cross-network",
-        "sessions": 17420,
-        "users": 11947,
-        "conversions": 2095
+        "sessions": 17421,
+        "users": 11968,
+        "conversions": 2098
       },
       {
         "name": "Paid Search",
-        "sessions": 15283,
-        "users": 10658,
-        "conversions": 2716
+        "sessions": 15351,
+        "users": 10700,
+        "conversions": 2738
       },
       {
         "name": "Referral",
         "sessions": 13462,
-        "users": 12719,
+        "users": 12725,
         "conversions": 363
       },
       {
         "name": "Unassigned",
-        "sessions": 7390,
-        "users": 5870,
+        "sessions": 7411,
+        "users": 5885,
         "conversions": 586
       },
       {
         "name": "Organic Social",
-        "sessions": 5620,
-        "users": 5312,
+        "sessions": 5636,
+        "users": 5329,
         "conversions": 81
       },
       {
         "name": "Email",
-        "sessions": 1557,
+        "sessions": 1560,
         "users": 1079,
         "conversions": 156
       },
       {
         "name": "Organic Shopping",
-        "sessions": 996,
-        "users": 613,
-        "conversions": 192
+        "sessions": 999,
+        "users": 616,
+        "conversions": 194
       },
       {
         "name": "Paid Other",
