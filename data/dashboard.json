@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-04-26T10:11:06Z",
+  "last_updated": "2026-04-26T12:07:25Z",
   "brands": {
     "gaf": {
       "revenue": {
-        "today": 35678.01,
-        "7d": 492334.46,
-        "30d": 1863230.66,
-        "90d": 5317616.43
+        "today": 36234.62,
+        "7d": 490186.44,
+        "30d": 1859405.67,
+        "90d": 5318135.91
       },
       "orders": {
-        "today": 30,
-        "7d": 235,
-        "30d": 996,
+        "today": 28,
+        "7d": 232,
+        "30d": 993,
         "90d": 2880
       },
       "aov": {
-        "today": 1189.27,
-        "7d": 2095.04,
-        "30d": 1870.71,
-        "90d": 1846.39
+        "today": 1294.09,
+        "7d": 2112.87,
+        "30d": 1872.51,
+        "90d": 1846.57
       }
     },
     "revel": {
@@ -45,74 +45,74 @@
   "ga4": {
     "periods": {
       "7d": {
-        "sessions": 45862,
-        "users": 37255,
-        "conversions": 2870
+        "sessions": 46560,
+        "users": 37772,
+        "conversions": 2889
       },
       "30d": {
-        "sessions": 206352,
-        "users": 160904,
-        "conversions": 11731
+        "sessions": 206974,
+        "users": 161369,
+        "conversions": 11750
       }
     },
     "channels": [
       {
         "name": "Paid Social",
-        "sessions": 60863,
-        "users": 44646,
+        "sessions": 61040,
+        "users": 44763,
         "conversions": 1272
       },
       {
         "name": "Paid Shopping",
-        "sessions": 42984,
-        "users": 36081,
-        "conversions": 2157
+        "sessions": 43264,
+        "users": 36228,
+        "conversions": 2163
       },
       {
         "name": "Organic Search",
-        "sessions": 22314,
-        "users": 16498,
+        "sessions": 22331,
+        "users": 16567,
         "conversions": 1215
       },
       {
         "name": "Direct",
-        "sessions": 18459,
-        "users": 15425,
-        "conversions": 956
+        "sessions": 18516,
+        "users": 15469,
+        "conversions": 962
       },
       {
         "name": "Cross-network",
-        "sessions": 17429,
-        "users": 11885,
-        "conversions": 2053
+        "sessions": 17461,
+        "users": 11912,
+        "conversions": 2054
       },
       {
         "name": "Paid Search",
-        "sessions": 15127,
-        "users": 10637,
-        "conversions": 2711
+        "sessions": 15156,
+        "users": 10671,
+        "conversions": 2717
       },
       {
         "name": "Referral",
-        "sessions": 13407,
-        "users": 12707,
+        "sessions": 13409,
+        "users": 12712,
         "conversions": 357
       },
       {
         "name": "Unassigned",
         "sessions": 7376,
-        "users": 5884,
+        "users": 5888,
         "conversions": 580
       },
       {
         "name": "Organic Social",
-        "sessions": 5754,
-        "users": 5397,
+        "sessions": 5780,
+        "users": 5415,
         "conversions": 82
       },
       {
         "name": "Email",
-        "sessions": 1561,
+        "sessions": 1563,
         "users": 1073,
         "conversions": 156
       },
@@ -350,6 +350,6 @@
     "error": "401 Client Error: Unauthorized for url: https://app.asana.com/api/1.0/workspaces/12600476210818/tasks/search?due_on.after=2026-04-26&due_on.before=2026-05-03&completed=false&opt_fields=name%2Cdue_on%2Cassignee.name%2Cprojects.name"
   },
   "cac": {
-    "error": "The read operation timed out"
+    "error": "<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10ZTj5iCaVEHq76ka3No6i7J9xp4MaoPppZkf3mxMyOk/values/%27Final%20Model%27%21A1%3AZ50?alt=json returned \"Unable to parse range: 'Final Model'!A1:Z50\". Details: \"Unable to parse range: 'Final Model'!A1:Z50\">"
   }
 }
