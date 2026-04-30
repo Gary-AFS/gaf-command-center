@@ -1,113 +1,113 @@
 {
-  "last_updated": "2026-04-30T20:01:51Z",
+  "last_updated": "2026-04-30T23:36:41Z",
   "brands": {
     "gaf": {
       "revenue": {
-        "today": 62736.63,
-        "7d": 335617.37,
-        "30d": 1785985.19,
-        "90d": 5366988.51
+        "today": 73642.86,
+        "7d": 345524.89,
+        "30d": 1722825.56,
+        "90d": 5374901.94
       },
       "orders": {
-        "today": 30,
-        "7d": 210,
-        "30d": 956,
-        "90d": 2845
+        "today": 32,
+        "7d": 209,
+        "30d": 951,
+        "90d": 2846
       },
       "aov": {
-        "today": 2091.22,
-        "7d": 1598.18,
-        "30d": 1868.19,
-        "90d": 1886.46
+        "today": 2301.34,
+        "7d": 1653.23,
+        "30d": 1811.59,
+        "90d": 1888.58
       }
     },
     "revel": {
       "revenue": {
-        "today": 36777.07,
-        "7d": 218914.22,
-        "30d": 1055061.72,
-        "90d": 3717294.82
+        "today": 22654.26,
+        "7d": 212490.21,
+        "30d": 1054405.71,
+        "90d": 3717133.33
       },
       "orders": {
-        "today": 9,
+        "today": 8,
         "7d": 60,
         "30d": 241,
-        "90d": 878
+        "90d": 877
       },
       "aov": {
-        "today": 4086.34,
-        "7d": 3648.57,
-        "30d": 4377.85,
-        "90d": 4233.82
+        "today": 2831.78,
+        "7d": 3541.5,
+        "30d": 4375.13,
+        "90d": 4238.46
       }
     }
   },
   "ga4": {
     "periods": {
       "7d": {
-        "sessions": 45045,
-        "users": 36971,
-        "conversions": 2334
+        "sessions": 46233,
+        "users": 38042,
+        "conversions": 2337
       },
       "30d": {
-        "sessions": 199442,
-        "users": 154573,
-        "conversions": 10759
+        "sessions": 200647,
+        "users": 155662,
+        "conversions": 10762
       }
     },
     "channels": [
       {
         "name": "Paid Social",
-        "sessions": 53266,
-        "users": 38499,
+        "sessions": 52880,
+        "users": 38535,
         "conversions": 1034
       },
       {
         "name": "Paid Shopping",
-        "sessions": 44977,
-        "users": 36959,
-        "conversions": 2238
+        "sessions": 45531,
+        "users": 37014,
+        "conversions": 2241
       },
       {
         "name": "Organic Search",
-        "sessions": 22387,
-        "users": 16356,
-        "conversions": 1155
-      },
-      {
-        "name": "Cross-network",
-        "sessions": 18728,
-        "users": 13206,
-        "conversions": 1892
+        "sessions": 22476,
+        "users": 16493,
+        "conversions": 1156
       },
       {
         "name": "Direct",
-        "sessions": 17593,
-        "users": 15127,
+        "sessions": 17605,
+        "users": 15204,
         "conversions": 875
       },
       {
+        "name": "Cross-network",
+        "sessions": 17075,
+        "users": 11762,
+        "conversions": 1891
+      },
+      {
         "name": "Paid Search",
-        "sessions": 15057,
-        "users": 10524,
+        "sessions": 15185,
+        "users": 10534,
         "conversions": 2334
       },
       {
         "name": "Referral",
-        "sessions": 11744,
-        "users": 10911,
+        "sessions": 14167,
+        "users": 13074,
         "conversions": 333
       },
       {
         "name": "Unassigned",
-        "sessions": 7223,
-        "users": 5886,
+        "sessions": 7253,
+        "users": 5923,
         "conversions": 508
       },
       {
         "name": "Organic Social",
-        "sessions": 5743,
-        "users": 5317,
+        "sessions": 5740,
+        "users": 5325,
         "conversions": 56
       },
       {
@@ -118,8 +118,8 @@
       },
       {
         "name": "Organic Shopping",
-        "sessions": 978,
-        "users": 603,
+        "sessions": 989,
+        "users": 613,
         "conversions": 172
       },
       {
@@ -145,9 +145,9 @@
   "hubspot": {
     "recent_emails": [
       {
-        "name": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells (Clone)",
-        "subject": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells",
-        "status": "PUBLISHED",
+        "name": "NEW Product Spotlight | Torque USA Tank M3 Push Sled",
+        "subject": "",
+        "status": "DRAFT",
         "sends": 0,
         "opens": 0,
         "clicks": 0,
@@ -155,9 +155,9 @@
         "click_rate": 0
       },
       {
-        "name": "NEW Product Spotlight | Torque USA Tank M3 Push Sled",
-        "subject": "",
-        "status": "DRAFT",
+        "name": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells (Clone)",
+        "subject": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells",
+        "status": "PUBLISHED",
         "sends": 0,
         "opens": 0,
         "clicks": 0,
