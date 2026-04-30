@@ -1,125 +1,125 @@
 {
-  "last_updated": "2026-04-30T00:08:58Z",
+  "last_updated": "2026-04-30T08:39:33Z",
   "brands": {
     "gaf": {
       "revenue": {
-        "today": 44706.17,
-        "7d": 468773.63,
-        "30d": 1804293.93,
-        "90d": 5327600.93
+        "today": 72021.2,
+        "7d": 351293.94,
+        "30d": 1801543.81,
+        "90d": 5367362.69
       },
       "orders": {
-        "today": 30,
-        "7d": 218,
-        "30d": 971,
-        "90d": 2843
+        "today": 32,
+        "7d": 214,
+        "30d": 960,
+        "90d": 2841
       },
       "aov": {
-        "today": 1490.21,
-        "7d": 2150.34,
-        "30d": 1858.18,
-        "90d": 1873.94
+        "today": 2250.66,
+        "7d": 1641.56,
+        "30d": 1876.61,
+        "90d": 1889.25
       }
     },
     "revel": {
       "revenue": {
-        "today": 29489.69,
-        "7d": 236448.44,
-        "30d": 1037428.23,
-        "90d": 3732872.84
+        "today": 31953.08,
+        "7d": 214090.23,
+        "30d": 1050237.73,
+        "90d": 3712677.81
       },
       "orders": {
-        "today": 5,
-        "7d": 59,
-        "30d": 237,
-        "90d": 881
+        "today": 7,
+        "7d": 58,
+        "30d": 239,
+        "90d": 878
       },
       "aov": {
-        "today": 5897.94,
-        "7d": 4007.6,
-        "30d": 4377.33,
-        "90d": 4237.09
+        "today": 4564.73,
+        "7d": 3691.21,
+        "30d": 4394.3,
+        "90d": 4228.56
       }
     }
   },
   "ga4": {
     "periods": {
       "7d": {
-        "sessions": 43163,
-        "users": 34965,
-        "conversions": 2480
+        "sessions": 45397,
+        "users": 36625,
+        "conversions": 2573
       },
       "30d": {
-        "sessions": 198804,
-        "users": 154162,
-        "conversions": 11073
+        "sessions": 200784,
+        "users": 155762,
+        "conversions": 11166
       }
     },
     "channels": [
       {
         "name": "Paid Social",
-        "sessions": 54527,
-        "users": 40202,
-        "conversions": 1093
+        "sessions": 55000,
+        "users": 40524,
+        "conversions": 1096
       },
       {
         "name": "Paid Shopping",
-        "sessions": 45091,
-        "users": 37052,
-        "conversions": 2221
+        "sessions": 45457,
+        "users": 37421,
+        "conversions": 2237
       },
       {
         "name": "Organic Search",
-        "sessions": 22523,
-        "users": 16413,
-        "conversions": 1172
+        "sessions": 22876,
+        "users": 16676,
+        "conversions": 1182
       },
       {
         "name": "Direct",
-        "sessions": 17716,
-        "users": 15232,
-        "conversions": 941
+        "sessions": 17911,
+        "users": 15487,
+        "conversions": 950
       },
       {
         "name": "Cross-network",
-        "sessions": 16824,
-        "users": 11229,
-        "conversions": 1921
+        "sessions": 17013,
+        "users": 11321,
+        "conversions": 1939
       },
       {
         "name": "Paid Search",
-        "sessions": 15130,
-        "users": 10589,
-        "conversions": 2458
+        "sessions": 15385,
+        "users": 10758,
+        "conversions": 2485
       },
       {
         "name": "Referral",
-        "sessions": 11195,
-        "users": 10420,
-        "conversions": 338
+        "sessions": 11217,
+        "users": 10433,
+        "conversions": 340
       },
       {
         "name": "Unassigned",
-        "sessions": 7289,
-        "users": 5891,
-        "conversions": 537
+        "sessions": 7353,
+        "users": 5962,
+        "conversions": 541
       },
       {
         "name": "Organic Social",
-        "sessions": 5777,
-        "users": 5339,
-        "conversions": 56
+        "sessions": 5820,
+        "users": 5374,
+        "conversions": 57
       },
       {
         "name": "Email",
-        "sessions": 1674,
-        "users": 1135,
-        "conversions": 157
+        "sessions": 1683,
+        "users": 1139,
+        "conversions": 160
       },
       {
         "name": "Organic Shopping",
-        "sessions": 996,
-        "users": 611,
+        "sessions": 1007,
+        "users": 618,
         "conversions": 179
       },
       {
@@ -144,6 +144,26 @@
   },
   "hubspot": {
     "recent_emails": [
+      {
+        "name": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells (Clone)",
+        "subject": "NEW Product Spotlight | Nike Strength Adjustable Dumbbells",
+        "status": "PUBLISHED",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
+      {
+        "name": "NEW Product Spotlight | Torque USA Tank M3 Push Sled",
+        "subject": "",
+        "status": "DRAFT",
+        "sends": 0,
+        "opens": 0,
+        "clicks": 0,
+        "open_rate": 0,
+        "click_rate": 0
+      },
       {
         "name": "NEW Product Spotlight | STEPR Bionic Bike XL VPR (Outlook TEST)",
         "subject": "Product Spotlight | STEPR Bionic Bike XL VPR",
@@ -317,26 +337,6 @@
       {
         "name": "GAF | CL1 | Day 7",
         "subject": "Survey and Save",
-        "status": "AUTOMATED",
-        "sends": 0,
-        "opens": 0,
-        "clicks": 0,
-        "open_rate": 0,
-        "click_rate": 0
-      },
-      {
-        "name": "GAF | CW1 | Day 7 - Refer a Friend",
-        "subject": "Help Your Mate!",
-        "status": "AUTOMATED",
-        "sends": 0,
-        "opens": 0,
-        "clicks": 0,
-        "open_rate": 0,
-        "click_rate": 0
-      },
-      {
-        "name": "GAF | CW1 | Day 5 - Warranty & Support",
-        "subject": "Warranty & Support",
         "status": "AUTOMATED",
         "sends": 0,
         "opens": 0,
