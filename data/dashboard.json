@@ -1,130 +1,130 @@
 {
-  "last_updated": "2026-05-02T06:23:36Z",
+  "last_updated": "2026-05-02T10:06:47Z",
   "brands": {
     "gaf": {
       "revenue": {
-        "today": 42770.55,
-        "7d": 404163.75,
-        "30d": 1721171.32,
-        "90d": 5450084.52
+        "today": 39328.8,
+        "7d": 401227.01,
+        "30d": 1710544.54,
+        "90d": 5446463.32
       },
       "orders": {
-        "today": 22,
-        "7d": 207,
-        "30d": 953,
-        "90d": 2852
+        "today": 23,
+        "7d": 209,
+        "30d": 952,
+        "90d": 2850
       },
       "aov": {
-        "today": 1944.12,
-        "7d": 1952.48,
-        "30d": 1806.06,
-        "90d": 1910.97
+        "today": 1709.95,
+        "7d": 1919.75,
+        "30d": 1796.79,
+        "90d": 1911.04
       }
     },
     "revel": {
       "revenue": {
-        "today": 20274.83,
-        "7d": 271491.42,
-        "30d": 1090120.17,
-        "90d": 3757232.02
+        "today": 5494.84,
+        "7d": 263823.44,
+        "30d": 1081121.17,
+        "90d": 3751374.03
       },
       "orders": {
-        "today": 9,
-        "7d": 73,
-        "30d": 247,
-        "90d": 883
+        "today": 6,
+        "7d": 70,
+        "30d": 246,
+        "90d": 881
       },
       "aov": {
-        "today": 2252.76,
-        "7d": 3719.06,
-        "30d": 4413.44,
-        "90d": 4255.08
+        "today": 915.81,
+        "7d": 3768.91,
+        "30d": 4394.8,
+        "90d": 4258.09
       }
     }
   },
   "ga4": {
     "periods": {
       "7d": {
-        "sessions": 47703,
-        "users": 38990,
-        "conversions": 2448
+        "sessions": 48661,
+        "users": 39754,
+        "conversions": 2495
       },
       "30d": {
-        "sessions": 201243,
-        "users": 156148,
-        "conversions": 10826
+        "sessions": 202209,
+        "users": 156851,
+        "conversions": 10873
       }
     },
     "channels": [
       {
         "name": "Paid Social",
-        "sessions": 52205,
-        "users": 38359,
-        "conversions": 1060
+        "sessions": 52447,
+        "users": 38517,
+        "conversions": 1062
       },
       {
         "name": "Paid Shopping",
-        "sessions": 46141,
-        "users": 37450,
-        "conversions": 2243
+        "sessions": 46482,
+        "users": 37687,
+        "conversions": 2247
       },
       {
         "name": "Organic Search",
-        "sessions": 22615,
-        "users": 16597,
-        "conversions": 1195
+        "sessions": 22732,
+        "users": 16661,
+        "conversions": 1206
       },
       {
         "name": "Direct",
-        "sessions": 17979,
-        "users": 15459,
+        "sessions": 18058,
+        "users": 15539,
         "conversions": 872
       },
       {
         "name": "Cross-network",
-        "sessions": 16542,
-        "users": 10993,
-        "conversions": 1908
+        "sessions": 16589,
+        "users": 11049,
+        "conversions": 1913
       },
       {
         "name": "Paid Search",
-        "sessions": 15219,
-        "users": 10570,
-        "conversions": 2322
+        "sessions": 15288,
+        "users": 10612,
+        "conversions": 2343
       },
       {
         "name": "Referral",
-        "sessions": 14775,
-        "users": 13581,
-        "conversions": 338
+        "sessions": 14779,
+        "users": 13590,
+        "conversions": 342
       },
       {
         "name": "Unassigned",
-        "sessions": 7169,
-        "users": 5906,
+        "sessions": 7210,
+        "users": 5938,
         "conversions": 499
       },
       {
         "name": "Organic Social",
-        "sessions": 5841,
-        "users": 5418,
+        "sessions": 5859,
+        "users": 5438,
         "conversions": 54
       },
       {
         "name": "Email",
-        "sessions": 1703,
-        "users": 1143,
+        "sessions": 1706,
+        "users": 1146,
         "conversions": 165
       },
       {
         "name": "Organic Shopping",
-        "sessions": 993,
-        "users": 623,
+        "sessions": 997,
+        "users": 625,
         "conversions": 170
       },
       {
         "name": "Paid Other",
-        "sessions": 37,
+        "sessions": 38,
         "users": 28,
         "conversions": 0
       },
