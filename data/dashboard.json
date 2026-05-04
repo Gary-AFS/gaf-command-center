@@ -1,126 +1,126 @@
 {
-  "last_updated": "2026-05-03T22:25:48Z",
+  "last_updated": "2026-05-04T08:07:27Z",
   "brands": {
     "gaf": {
       "revenue": {
-        "today": 55189.23,
-        "7d": 408924.53,
-        "30d": 1721609.78,
-        "90d": 5460276.0
+        "today": 98770.94,
+        "7d": 441263.91,
+        "30d": 1781508.24,
+        "90d": 5487096.07
       },
       "orders": {
-        "today": 28,
-        "7d": 204,
-        "30d": 951,
-        "90d": 2841
+        "today": 38,
+        "7d": 200,
+        "30d": 972,
+        "90d": 2834
       },
       "aov": {
-        "today": 1971.04,
-        "7d": 2004.53,
-        "30d": 1810.32,
-        "90d": 1921.96
+        "today": 2599.24,
+        "7d": 2206.32,
+        "30d": 1832.83,
+        "90d": 1936.17
       }
     },
     "revel": {
       "revenue": {
-        "today": 37738.87,
-        "7d": 263179.16,
-        "30d": 1103015.18,
-        "90d": 3723594.82
+        "today": 105261.01,
+        "7d": 309833.55,
+        "30d": 1175076.4,
+        "90d": 3759336.8
       },
       "orders": {
-        "today": 6,
-        "7d": 67,
-        "30d": 246,
-        "90d": 873
+        "today": 15,
+        "7d": 66,
+        "30d": 256,
+        "90d": 875
       },
       "aov": {
-        "today": 6289.81,
-        "7d": 3928.05,
-        "30d": 4483.8,
-        "90d": 4265.29
+        "today": 7017.4,
+        "7d": 4694.45,
+        "30d": 4590.14,
+        "90d": 4296.38
       }
     }
   },
   "ga4": {
     "periods": {
       "7d": {
-        "sessions": 46392,
-        "users": 38216,
-        "conversions": 2047
+        "sessions": 48625,
+        "users": 39986,
+        "conversions": 2199
       },
       "30d": {
-        "sessions": 199492,
-        "users": 154843,
-        "conversions": 10632
+        "sessions": 201992,
+        "users": 156474,
+        "conversions": 10784
       }
     },
     "channels": [
       {
         "name": "Paid Social",
-        "sessions": 51448,
-        "users": 37826,
-        "conversions": 1052
+        "sessions": 52150,
+        "users": 38195,
+        "conversions": 1060
       },
       {
         "name": "Paid Shopping",
-        "sessions": 47327,
-        "users": 38091,
-        "conversions": 2270
+        "sessions": 48057,
+        "users": 38484,
+        "conversions": 2318
       },
       {
         "name": "Organic Search",
-        "sessions": 22416,
-        "users": 16439,
-        "conversions": 1157
+        "sessions": 22680,
+        "users": 16635,
+        "conversions": 1182
       },
       {
         "name": "Direct",
-        "sessions": 17832,
-        "users": 15507,
-        "conversions": 872
+        "sessions": 18023,
+        "users": 15704,
+        "conversions": 885
       },
       {
         "name": "Cross-network",
-        "sessions": 16231,
-        "users": 10760,
-        "conversions": 1836
+        "sessions": 16344,
+        "users": 10833,
+        "conversions": 1848
       },
       {
         "name": "Paid Search",
-        "sessions": 15026,
-        "users": 10541,
-        "conversions": 2333
+        "sessions": 15205,
+        "users": 10679,
+        "conversions": 2349
       },
       {
         "name": "Referral",
-        "sessions": 14562,
-        "users": 13451,
-        "conversions": 331
+        "sessions": 14591,
+        "users": 13470,
+        "conversions": 342
       },
       {
         "name": "Unassigned",
-        "sessions": 6038,
-        "users": 4958,
-        "conversions": 391
+        "sessions": 6244,
+        "users": 5143,
+        "conversions": 393
       },
       {
         "name": "Organic Social",
-        "sessions": 5869,
-        "users": 5458,
-        "conversions": 54
+        "sessions": 5947,
+        "users": 5515,
+        "conversions": 55
       },
       {
         "name": "Email",
-        "sessions": 1702,
-        "users": 1139,
-        "conversions": 166
+        "sessions": 1707,
+        "users": 1142,
+        "conversions": 172
       },
       {
         "name": "Organic Shopping",
-        "sessions": 980,
-        "users": 625,
-        "conversions": 170
+        "sessions": 983,
+        "users": 626,
+        "conversions": 180
       },
       {
         "name": "Paid Other",
@@ -147,7 +147,7 @@
       {
         "name": "NEW Product Spotlight | Torque USA Tank M3 Push Sled",
         "subject": "Product Spotlight | Torque USA Tank M3 Push Sled",
-        "status": "SCHEDULED",
+        "status": "PUBLISHED",
         "sends": 0,
         "opens": 0,
         "clicks": 0,
@@ -347,7 +347,7 @@
     ]
   },
   "asana": {
-    "error": "401 Client Error: Unauthorized for url: https://app.asana.com/api/1.0/workspaces/12600476210818/tasks/search?due_on.after=2026-05-03&due_on.before=2026-05-10&completed=false&opt_fields=name%2Cdue_on%2Cassignee.name%2Cprojects.name"
+    "error": "401 Client Error: Unauthorized for url: https://app.asana.com/api/1.0/workspaces/12600476210818/tasks/search?due_on.after=2026-05-04&due_on.before=2026-05-11&completed=false&opt_fields=name%2Cdue_on%2Cassignee.name%2Cprojects.name"
   },
   "cac": {
     "error": "<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10ZTj5iCaVEHq76ka3No6i7J9xp4MaoPppZkf3mxMyOk/values/%27Final%20Model%27%21A1%3AZ50?alt=json returned \"Unable to parse range: 'Final Model'!A1:Z50\". Details: \"Unable to parse range: 'Final Model'!A1:Z50\">"
